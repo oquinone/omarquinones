@@ -1,0 +1,163 @@
+#home-container {
+  padding: 50px;
+  background-color: #1d1d20;
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+
+  #home-content {
+    z-index: 10;
+    border: 0.2px solid rgb(80, 69, 69);
+    padding: 20px 20px 0 20px;
+    height: 84.5vh;
+
+    #home-links-container {
+      color: white;
+      // border: 1px solid green;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      padding: 20px 15px;
+
+      #name-title {
+        font-size: 25px;
+        font-family: "Proza Libre", sans-serif;
+        font-family: "Roboto", sans-serif;
+        text-shadow: -2px 2px #333232;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      #home-links {
+        display: flex;
+        flex-flow: row nowrap;
+        // border: 1px solid red;
+        margin: 0 25px 0 0;
+        li {
+          padding: 0 0 0 15px;
+        }
+      }
+    }
+
+    #welcome-info {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      height: 550px;
+      .hide {
+        display: none;
+      }
+
+      #welcome-container {
+        margin: 0 0 85px 15px;
+        // border: 1px solid red;
+
+        #welcome-text {
+          font-size: 100px;
+          color: white;
+          font-family: "Proza Libre", sans-serif;
+          font-family: "Roboto", sans-serif;
+        }
+        #welcome-paragraph {
+          color: white;
+          line-height: 1.6;
+          padding: 0 0 0 10px;
+          font-family: "Proza Libre", sans-serif;
+          font-family: "Roboto", sans-serif;
+          border: 1px solid rgb(70, 36, 36);
+          border-top: #1d1d20;
+          border-right: #1d1d20;
+          border-bottom: #1d1d20;
+          // border: 1px solid red;
+        }
+      }
+
+      .projects-container {
+        padding: 0 0 0 17px;
+        margin: 40px 0 0 0;
+        // border: 1px solid red;
+        .project-text {
+          padding: 0 0 5px 0;
+          font-size: 25px;
+          color: white;
+          font-family: "Proza Libre", sans-serif;
+          font-family: "Roboto", sans-serif;
+        }
+
+        .project-description {
+          padding: 0 0 0 10px;
+          color: white;
+          // font-family: "Proza Libre", sans-serif;
+          // font-family: "Roboto", sans-serif;
+          font-family: "DM Sans", sans-serif;
+          font-weight: 100;
+          line-height: 1.4;
+        }
+        .project-content {
+          display: flex;
+          flex-flow: row nowrap;
+        }
+
+        .project-img {
+          width: 250px;
+          height: 250px;
+          object-fit: contain;
+          object-position: 0 0;
+        }
+      }
+
+      #home-projects {
+        // border: 1px solid red;
+        color: white;
+        // margin: 0 0 0 10em;
+        padding: 0 50px 50px 50px;
+        #project-text {
+          font-size: 23px;
+          font-family: "Proza Libre", sans-serif;
+          font-family: "Roboto", sans-serif;
+          // border: 1px solid green;
+          margin: 0 0 5px 0;
+          padding: 0 0 0 5px;
+        }
+        #project-items {
+          width: 200px;
+          height: 100px;
+          padding: 5px;
+          border-top: 1px solid rgb(70, 36, 36);
+          // border: 1px solid rgb(255, 255, 255);
+          // border-top-left-radius: 10px;
+          // border-right: #1d1d20;
+          // border-bottom: #1d1d20;
+          position: relative;
+          .project-names {
+            font-size: 15px;
+            font-family: "Proza Libre", sans-serif;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            color: white;
+            // padding: 5px 0;
+          }
+        }
+
+        // #project-items::before {
+        //   content: "";
+        //   display: block;
+        //   position: absolute;
+        //   width: 200px;
+        //   top: -2px;
+        //   right: 0px;
+        //   border: 4px solid #1d1d20;
+        // }
+
+        // #project-items::after {
+        //   content: "";
+        //   display: block;
+        //   position: absolute;
+        //   width: 200px;
+        //   bottom: -5px;
+        //   right: 0px;
+        //   border: 4px solid #1d1d20;
+        // }
+      }
+    }
+  }
+}
