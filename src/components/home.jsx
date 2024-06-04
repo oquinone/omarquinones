@@ -53,17 +53,17 @@ const Home = () => {
             <h1 className="project-text">Intsagram Profile Clone</h1>
             <div className="project-content">
               <div>
-                <img
-                  src={instaCloneImage}
-                  alt="project_image"
-                  className="project-img"
-                  // style={{
-                  //   width: "250px",
-                  //   height: "250px",
-                  //   objectFit: "contain",
-                  //   objectPosition: "0 0",
-                  // }}
-                />
+                <a
+                  href="https://oquinone.github.io/instagram_clone/#/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={instaCloneImage}
+                    alt="project_image"
+                    className="project-img"
+                  />
+                </a>
               </div>
               <p className="project-description">
                 My goal for this project was to create a Full Stack application.
@@ -71,12 +71,10 @@ const Home = () => {
                 using Spring Boot, and PostgreSQL serves as the database.
                 <br />
                 The project's functionality includes user sign-up and login
-                features. Upon successful login, the user is authenticated using
-                a JWT (JSON Web Token). Authentication is handled by storing the
-                JWT as a cookie in the user's browser. Once authenticated, the
-                user is directed to a profile page designed to resemble
-                Instagram's profile interface. On this profile page, users can
-                upload images to their profile, which are saved in the
+                features. A user is authenticated using a JSON Web Token. Once
+                authenticated, the user is directed to a profile page designed
+                to resemble Instagram's profile interface. On this profile page,
+                users can upload images to their profile, which are saved in the
                 PostgreSQL database. Additionally, users can update their bio
                 and change their profile picture.
                 <br />
@@ -97,25 +95,19 @@ const Home = () => {
                   src={authorBook}
                   alt="project_image"
                   className="project-img"
-                  // style={{
-                  //   width: "250px",
-                  //   height: "250px",
-                  //   objectFit: "contain",
-                  //   objectPosition: "0 0",
-                  // }}
                 />
               </div>
               <p className="project-description">
-                This is a simple react and spring boot project. The goal for
-                this project was just to be able to save authors and
-                corresponding books that they have published to a postgress
-                database.Crud Operations
+                This project utilizes React for the frontend and Spring Boot for
+                the backend. The goal of this project is to create a backend API
+                capable of handling CRUD operations and managing
+                one-to-many/many-to-one relationships within the data. Users can
+                add authors and subsequently add books published by these
+                authors. The frontend is developed with React and styled using
+                Material-UI components.
                 <br />
                 <br />
-                <p>
-                  Tech Used: React, Spring Boot, Sass, React-Bootstrap, Flexbox,
-                  JWT
-                </p>
+                <p>Tech Used: React, Spring Boot, Sass, Material-UI, Flexbox</p>
               </p>
             </div>
           </div>
