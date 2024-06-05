@@ -67,16 +67,15 @@ const Home = () => {
               </div>
               <p className="project-description">
                 My goal for this project was to create a Full Stack application.
-                The frontend is built with React, while the backend is developed
-                using Spring Boot, and PostgreSQL serves as the database.
+                {/* The frontend is built with React, while the backend is developed
+                using Spring Boot, and PostgreSQL as the database. */}
                 <br />
                 The project's functionality includes user sign-up and login
                 features. A user is authenticated using a JSON Web Token. Once
                 authenticated, the user is directed to a profile page designed
                 to resemble Instagram's profile interface. On this profile page,
-                users can upload images to their profile, which are saved in the
-                PostgreSQL database. Additionally, users can update their bio
-                and change their profile picture.
+                users can upload images to their profile. Additionally, users
+                can update their bio and change their profile picture.
                 <br />
                 <br />
                 <p>
@@ -91,11 +90,17 @@ const Home = () => {
             <h1 className="project-text">Author Management</h1>
             <div className="project-content">
               <div>
-                <img
-                  src={authorBook}
-                  alt="project_image"
-                  className="project-img"
-                />
+                <a
+                  href="https://oquinone.github.io/authorManagement/#/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={authorBook}
+                    alt="project_image"
+                    className="project-img"
+                  />
+                </a>
               </div>
               <p className="project-description">
                 This project utilizes React for the frontend and Spring Boot for
