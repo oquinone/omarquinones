@@ -236,6 +236,11 @@ $screen-xl-min: 1200px;
             font-family: "Roboto", sans-serif;
             font-weight: 100;
             color: white;
+
+            .project-names-button {
+              color: white;
+              text-decoration: none;
+            }
           }
         }
       }

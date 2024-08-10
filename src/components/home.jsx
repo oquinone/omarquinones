@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import instaCloneImage from "../images/clone_2.png";
 import authorBook from "../images/author_book.png";
 import easybank from "../images/easybank.png";
+import multiStepForm from "../images/multi-step form .png";
 import freeCodeCamp from "../svg/freeCodeCampIcon.svg";
 
 const Home = () => {
@@ -68,8 +69,8 @@ const Home = () => {
             </p>
           </div>
 
-          <div className={`projects-container ${hide === 1 ? "" : "hide"}`}>
-            <h1 className="project-text">Intsagram Profile Clone</h1>
+          <section className={`projects-container ${hide === 1 ? "" : "hide"}`}>
+            <h1 className="project-text">Image Upload</h1>
             <div className="project-content">
               <div>
                 <a
@@ -88,8 +89,6 @@ const Home = () => {
                 <p className="project-description">
                   My goal for this project was to create a Full Stack
                   application.
-                  {/* The frontend is built with React, while the backend is developed
-                using Spring Boot, and PostgreSQL as the database. */}
                   <br />
                   The project's functionality includes user sign-up and login
                   features. A user is authenticated using a JSON Web Token. Once
@@ -100,15 +99,14 @@ const Home = () => {
                   <br />
                   <br />
                   <p>
-                    Tech Used: React, Spring Boot, Sass, React-Bootstrap,
-                    Flexbox, JWT
+                    Tech Used: React, CSS, Sass, React-Bootstrap, Spring Boot
                   </p>
                 </p>
               </div>
             </div>
-          </div>
+          </section>
 
-          <div className={`projects-container ${hide === 2 ? "" : "hide"}`}>
+          <section className={`projects-container ${hide === 2 ? "" : "hide"}`}>
             <h1 className="project-text">Author Management</h1>
             <div className="project-content">
               <div>
@@ -125,21 +123,19 @@ const Home = () => {
                 </a>
               </div>
               <p className="project-description">
-                This project utilizes React for the frontend and Spring Boot for
-                the backend. The goal of this project is to create a backend API
-                capable of handling CRUD operations and managing
-                one-to-many/many-to-one relationships within the data. Users can
-                add authors and subsequently add books published by these
-                authors. The frontend is developed with React and styled using
-                Material-UI components.
+                The goal for this project was create a system to manage authors
+                and their books. The manager can add, update, and delete authors
+                and their associated books. The frontend is created using React
+                and styled with Material UI. The backend is created using Spring
+                Boot.
                 <br />
                 <br />
-                <p>Tech Used: React, Spring Boot, Sass, Material-UI, Flexbox</p>
+                <p>Tech Used: React, CSS, Sass, Material UI, Spring Boot</p>
               </p>
             </div>
-          </div>
+          </section>
 
-          <div className={`projects-container ${hide === 3 ? "" : "hide"}`}>
+          <section className={`projects-container ${hide === 3 ? "" : "hide"}`}>
             <h1 className="project-text">Easybank</h1>
             <div className="project-content">
               <div>
@@ -162,12 +158,39 @@ const Home = () => {
                 tablet, and large monitor screens
                 <br />
                 <br />
-                <p>
-                  Tech used: React, Sass, Flexbox, React-bootstrap components
-                </p>
+                <p>Tech used: React, CSS, Sass, React-Bootstrap</p>
               </p>
             </div>
-          </div>
+          </section>
+
+          <section className={`projects-container ${hide === 4 ? "" : "hide"}`}>
+            <h1 className="project-text">Mulit-Step Form</h1>
+            <div className="project-content">
+              <div>
+                <a
+                  href="https://oquinone.github.io/multi-step-form/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={multiStepForm}
+                    alt="multi-step form"
+                    className="project-img"
+                  />
+                </a>
+              </div>
+              <p className="project-description">
+                The aim for this project was to implement a responsive
+                multi-step form for an online gaming service. The primary
+                objectives were to maintain the state of each form item as the
+                user progresed thorugh the form and to ensure the form dispalyed
+                perfectly on any screen size.
+                <br />
+                <br />
+                <p>Tech used: React, Sass, Zustand</p>
+              </p>
+            </div>
+          </section>
 
           <div id="home-projects">
             <h1 id="project-text">Projects</h1>
@@ -176,22 +199,18 @@ const Home = () => {
                 <Button
                   variant="text"
                   size="small"
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    // textTransform: "lowercase",
-                  }}
-                  onClick={() => setHide(1)}
+                  onClick={() => setHide(4)}
+                  className="project-names-button"
                 >
-                  Instagram Clone
+                  Multi-Step Form
                 </Button>
               </li>
               <li className="project-names">
                 <Button
                   variant="text"
                   size="small"
-                  style={{ color: "white", textDecoration: "none" }}
                   onClick={() => setHide(2)}
+                  className="project-names-button"
                 >
                   Author Management
                 </Button>
@@ -200,22 +219,22 @@ const Home = () => {
                 <Button
                   variant="text"
                   size="small"
-                  style={{ color: "white", textDecoration: "none" }}
+                  onClick={() => setHide(1)}
+                  className="project-names-button"
+                >
+                  Image Upload
+                </Button>
+              </li>
+              <li className="project-names">
+                <Button
+                  variant="text"
+                  size="small"
                   onClick={() => setHide(3)}
+                  className="project-names-button"
                 >
                   EasyBank
                 </Button>
               </li>
-              {/* <li className="project-names">
-                <Button
-                  variant="text"
-                  size="small"
-                  style={{ color: "white", textDecoration: "none" }}
-                  onClick={() => setHide(4)}
-                >
-                  Project 4
-                </Button>
-              </li> */}
             </ul>
           </div>
         </div>
