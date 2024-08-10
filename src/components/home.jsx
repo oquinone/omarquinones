@@ -21,7 +21,11 @@ const Home = () => {
           </h1>
           <ul id="home-links">
             <li>
-              <a href="https://www.freecodecamp.org/certification/oquinone/front-end-development-libraries">
+              <a
+                href="https://www.freecodecamp.org/certification/oquinone/front-end-development-libraries"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="free-code-camp-icon"
                   src={freeCodeCamp}
@@ -30,7 +34,11 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.freecodecamp.org/certification/oquinone/responsive-web-design">
+              <a
+                href="https://www.freecodecamp.org/certification/oquinone/responsive-web-design"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="free-code-camp-icon"
                   src={freeCodeCamp}
