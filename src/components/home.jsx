@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import instaCloneImage from "../images/clone_2.png";
 import authorBook from "../images/author_book.png";
 import easybank from "../images/easybank.png";
+import freeCodeCamp from "../svg/freeCodeCampIcon.svg";
 
 const Home = () => {
   const [hide, setHide] = useState(0);
@@ -18,6 +19,24 @@ const Home = () => {
             Omar Quinones
           </h1>
           <ul id="home-links">
+            <li>
+              <a href="https://www.freecodecamp.org/certification/oquinone/front-end-development-libraries">
+                <img
+                  className="free-code-camp-icon"
+                  src={freeCodeCamp}
+                  alt="free code camp"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/certification/oquinone/responsive-web-design">
+                <img
+                  className="free-code-camp-icon"
+                  src={freeCodeCamp}
+                  alt="free code camp"
+                />
+              </a>
+            </li>
             <li>
               <a
                 href="https://github.com/oquinone?tab=repositories"
@@ -32,7 +51,7 @@ const Home = () => {
                 (window.location = "mailto:omarquinones977@gmail.com")
               }
             >
-              <EmailIcon style={{ color: "#fff", curosr: "pointer" }} />
+              <EmailIcon id="email-icon" />
             </li>
           </ul>
         </div>

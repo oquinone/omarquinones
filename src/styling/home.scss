@@ -87,6 +87,16 @@ $screen-xl-min: 1200px;
         flex-flow: row nowrap;
         li {
           padding: 0 0 0 15px;
+
+          .free-code-camp-icon {
+            width: 25px;
+            height: 25px;
+          }
+
+          #email-icon {
+            color: #fff;
+            cursor: pointer;
+          }
         }
       }
     }
