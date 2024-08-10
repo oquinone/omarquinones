@@ -65,24 +65,27 @@ const Home = () => {
                   />
                 </a>
               </div>
-              <p className="project-description">
-                My goal for this project was to create a Full Stack application.
-                {/* The frontend is built with React, while the backend is developed
+              <div>
+                <p className="project-description">
+                  My goal for this project was to create a Full Stack
+                  application.
+                  {/* The frontend is built with React, while the backend is developed
                 using Spring Boot, and PostgreSQL as the database. */}
-                <br />
-                The project's functionality includes user sign-up and login
-                features. A user is authenticated using a JSON Web Token. Once
-                authenticated, the user is directed to a profile page designed
-                to resemble Instagram's profile interface. On this profile page,
-                users can upload images to their profile. Additionally, users
-                can update their bio and change their profile picture.
-                <br />
-                <br />
-                <p>
-                  Tech Used: React, Spring Boot, Sass, React-Bootstrap, Flexbox,
-                  JWT
+                  <br />
+                  The project's functionality includes user sign-up and login
+                  features. A user is authenticated using a JSON Web Token. Once
+                  authenticated, the user is directed to a profile page designed
+                  to resemble Instagram's profile interface. On this profile
+                  page, users can upload images to their profile. Additionally,
+                  users can update their bio and change their profile picture.
+                  <br />
+                  <br />
+                  <p>
+                    Tech Used: React, Spring Boot, Sass, React-Bootstrap,
+                    Flexbox, JWT
+                  </p>
                 </p>
-              </p>
+              </div>
             </div>
           </div>
 
@@ -122,7 +125,7 @@ const Home = () => {
             <div className="project-content">
               <div>
                 <a
-                  href="https://oquinone.github.io/landingpage/"
+                  href="https://oquinone.github.io/easybank/"
                   target="_blank"
                   rel="noreferrer"
                 >
