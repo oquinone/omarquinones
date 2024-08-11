@@ -18,7 +18,7 @@ const ProjectsComponent = (props) => {
       </div>
 
       <div className={`projects-container ${hide === 1 ? "" : "hide"}`}>
-        <h1 className="project-text">Image Upload</h1>
+        <h1 className="project-title">Image Upload</h1>
         <div className="project-content">
           <div>
             <a
@@ -52,7 +52,7 @@ const ProjectsComponent = (props) => {
       </div>
 
       <div className={`projects-container ${hide === 2 ? "" : "hide"}`}>
-        <h1 className="project-text">Author Management</h1>
+        <h1 className="project-title">Author Management</h1>
         <div className="project-content">
           <div>
             <a
@@ -80,7 +80,7 @@ const ProjectsComponent = (props) => {
       </div>
 
       <div className={`projects-container ${hide === 3 ? "" : "hide"}`}>
-        <h1 className="project-text">Easybank</h1>
+        <h1 className="project-title">Easybank</h1>
         <div className="project-content">
           <div>
             <a
@@ -104,7 +104,7 @@ const ProjectsComponent = (props) => {
       </div>
 
       <div className={`projects-container ${hide === 4 ? "" : "hide"}`}>
-        <h1 className="project-text">Mulit-Step Form</h1>
+        <h1 className="project-title">Mulit-Step Form</h1>
         <div className="project-content">
           <div>
             <a

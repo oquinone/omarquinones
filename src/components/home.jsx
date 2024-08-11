@@ -11,7 +11,7 @@ const Home = () => {
     <div id="home-container">
       <div id="home-content">
         <NavbarComponent setHide={setHide} />
-        <div id="welcome-info">
+        <div id="projects-and-buttons-container">
           <ProjectsComponent hide={hide} />
           <ProjectButtonsComponent setHide={setHide} />
         </div>

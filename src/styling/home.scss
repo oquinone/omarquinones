@@ -67,23 +67,19 @@ $screen-xl-min: 1200px;
       justify-content: space-between;
     }
     @include sm {
-      margin: 20px;
+      margin: 50px 50px 0;
       padding: 10px 10px 0;
       border: 0.2px solid rgb(80, 69, 69);
       height: 87%;
     }
-    @include md {
-      margin: 50px 50px 0;
-      padding: 20px 20px 0;
-    }
 
     #home-links-container {
       @include xs {
-        padding: 20px 15px 10px 15px;
+        padding: 20px 15px 0 15px;
       }
       color: rgb(255, 255, 255);
       display: flex;
-      padding: 20px 15px;
+      padding: 10px 15px;
       flex-flow: row wrap;
       justify-content: space-between;
 
@@ -97,8 +93,10 @@ $screen-xl-min: 1200px;
       #home-links {
         display: flex;
         flex-flow: row nowrap;
+        align-items: flex-end;
+
         li {
-          padding: 0 0 0 15px;
+          padding-left: 15px;
 
           .free-code-camp-icon {
             width: 25px;
@@ -113,21 +111,18 @@ $screen-xl-min: 1200px;
       }
     }
 
-    #welcome-info {
+    #projects-and-buttons-container {
       display: flex;
+      flex-flow: row nowrap;
       justify-content: center;
+      align-items: center;
+      height: 90%;
 
       @include xs {
         flex-flow: column nowrap;
-        margin: 20% 0 0 0;
+        margin-top: 30px;
       }
 
-      @include sm {
-        flex-flow: row nowrap;
-        margin: 10% 0;
-      }
-      align-items: center;
-      height: 50%;
       .hide {
         display: none;
       }
@@ -166,10 +161,7 @@ $screen-xl-min: 1200px;
           padding: 0 0 0 10px;
           font-family: "Proza Libre", sans-serif;
           font-family: "Roboto", sans-serif;
-          border: 1px solid rgb(70, 36, 36);
-          border-top: #1d1d20;
-          border-right: #1d1d20;
-          border-bottom: #1d1d20;
+          border-left: 1px solid rgb(70, 36, 36);
 
           @include md {
             font-size: 18px;
@@ -180,16 +172,16 @@ $screen-xl-min: 1200px;
       .projects-container {
         @include xs {
           margin: 0;
-          // border: 1px solid red;
-          height: 490px;
+          height: 470px;
         }
 
         @include lg {
           width: 60%;
         }
-        padding: 0 0 0 17px;
-        margin: 40px 0 0 0;
-        .project-text {
+        padding: 0 18px;
+        // margin: 40px 0 0 0;
+
+        .project-title {
           @include xs {
             display: flex;
             flex-flow: row nowrap;
@@ -210,8 +202,10 @@ $screen-xl-min: 1200px;
           font-weight: lighter;
           line-height: 1.4;
         }
+
         .project-content {
           display: flex;
+
           @include xs {
             flex-flow: column nowrap;
           }
@@ -225,7 +219,7 @@ $screen-xl-min: 1200px;
         .project-img {
           @include xs {
             width: 80%;
-            margin: 0 8%;
+            margin: 0 9%;
           }
 
           @include sm {
@@ -238,7 +232,7 @@ $screen-xl-min: 1200px;
 
       #home-projects {
         @include xs {
-          padding: 25px 10px 10px 10px;
+          padding-top: 20px;
         }
 
         @include sm {
@@ -252,7 +246,7 @@ $screen-xl-min: 1200px;
           font-size: 21px;
           font-family: "Proza Libre", sans-serif;
           font-family: "Roboto", sans-serif;
-          margin: 0 0 5px 0;
+          margin-bottom: 2px;
         }
         #project-items {
           width: 200px;
