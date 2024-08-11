@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/omarquinones/static/css/main.0c709e26.css",
-    "main.js": "/omarquinones/static/js/main.21339ffe.js",
+    "main.css": "/omarquinones/static/css/main.6264d8ff.css",
+    "main.js": "/omarquinones/static/js/main.e350ff50.js",
     "static/js/787.1ed0c42c.chunk.js": "/omarquinones/static/js/787.1ed0c42c.chunk.js",
     "static/media/easybank.png": "/omarquinones/static/media/easybank.192cbca2bb3305248704.png",
-    "static/media/clone_2.png": "/omarquinones/static/media/clone_2.2379a81a3ab559c1ba15.png",
-    "static/media/author_book.png": "/omarquinones/static/media/author_book.1cabadd9d21c3eb8780e.png",
-    "static/media/multi-step form .png": "/omarquinones/static/media/multi-step form .844747a82c826f08bba0.png",
+    "static/media/author-book.png": "/omarquinones/static/media/author-book.1cabadd9d21c3eb8780e.png",
+    "static/media/insta-image.png": "/omarquinones/static/media/insta-image.5a4a8879792fdb71d553.png",
+    "static/media/multi-step-form.png": "/omarquinones/static/media/multi-step-form.844747a82c826f08bba0.png",
     "index.html": "/omarquinones/index.html",
     "static/media/freeCodeCampIcon.svg": "/omarquinones/static/media/freeCodeCampIcon.9fae4f65389de4dcb934d66ba08cb15b.svg",
-    "main.0c709e26.css.map": "/omarquinones/static/css/main.0c709e26.css.map",
-    "main.21339ffe.js.map": "/omarquinones/static/js/main.21339ffe.js.map",
+    "main.6264d8ff.css.map": "/omarquinones/static/css/main.6264d8ff.css.map",
+    "main.e350ff50.js.map": "/omarquinones/static/js/main.e350ff50.js.map",
     "787.1ed0c42c.chunk.js.map": "/omarquinones/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c709e26.css",
-    "static/js/main.21339ffe.js"
+    "static/css/main.6264d8ff.css",
+    "static/js/main.e350ff50.js"
   ]
 }
