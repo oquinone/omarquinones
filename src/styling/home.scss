@@ -7,6 +7,9 @@ $screen-sm-min: 576px;
 // Small tablets (portrait view)
 $screen-md-min: 768px;
 
+//overflow
+$screen-overflow-y: 906px;
+
 // Tablets and small desktops
 $screen-lg-min: 992px;
 
@@ -41,6 +44,13 @@ $screen-xl-min: 1200px;
   }
 }
 
+//overflow
+@mixin overflow-screen {
+  @media (max-width: #{$screen-overflow-y}) {
+    @content;
+  }
+}
+
 #home-container {
   width: 100%;
   height: 100vh;
@@ -50,20 +60,22 @@ $screen-xl-min: 1200px;
 
   #home-content {
     @include xs {
-      margin: 5px;
       padding: 5px 5px 0;
       border: none;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
     }
     @include sm {
       margin: 20px;
       padding: 10px 10px 0;
+      border: 0.2px solid rgb(80, 69, 69);
+      height: 87%;
     }
     @include md {
       margin: 50px 50px 0;
       padding: 20px 20px 0;
     }
-    height: 87%;
-    border: 0.2px solid rgb(80, 69, 69);
 
     #home-links-container {
       @include xs {
@@ -103,6 +115,7 @@ $screen-xl-min: 1200px;
 
     #welcome-info {
       display: flex;
+      justify-content: center;
 
       @include xs {
         flex-flow: column nowrap;
@@ -115,14 +128,20 @@ $screen-xl-min: 1200px;
       }
       align-items: center;
       height: 50%;
-      // border: 1px solid red;
       .hide {
         display: none;
       }
 
       #welcome-container {
         margin: 0 0 85px 15px;
-        // border: 1px solid red;
+
+        @include md {
+          width: 50%;
+        }
+
+        @include lg {
+          width: 60%;
+        }
 
         #welcome-text {
           @include xs {
@@ -151,13 +170,22 @@ $screen-xl-min: 1200px;
           border-top: #1d1d20;
           border-right: #1d1d20;
           border-bottom: #1d1d20;
+
+          @include md {
+            font-size: 18px;
+          }
         }
       }
 
       .projects-container {
-        // border: 1px solid red;
         @include xs {
           margin: 0;
+          // border: 1px solid red;
+          height: 490px;
+        }
+
+        @include lg {
+          width: 60%;
         }
         padding: 0 0 0 17px;
         margin: 40px 0 0 0;
@@ -176,7 +204,7 @@ $screen-xl-min: 1200px;
 
         .project-description {
           padding: 0 0 0 10px;
-          font-size: 16px;
+          font-size: 17px;
           color: white;
           font-family: "DM Sans", sans-serif;
           font-weight: lighter;
@@ -186,6 +214,10 @@ $screen-xl-min: 1200px;
           display: flex;
           @include xs {
             flex-flow: column nowrap;
+          }
+
+          @include overflow-screen {
+            flex-flow: row wrap;
           }
           flex-flow: row nowrap;
         }
@@ -198,7 +230,6 @@ $screen-xl-min: 1200px;
 
           @include sm {
             width: 250px;
-            height: 250px;
             object-position: 0 0;
           }
           object-fit: contain;
