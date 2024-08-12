@@ -45,7 +45,10 @@ const ProjectsComponent = (props) => {
               update their bio and change their profile picture.
               <br />
               <br />
-              <p>Tech Used: React, CSS, Sass, React-Bootstrap, Spring Boot</p>
+              <p>
+                Tech Used: React, CSS, Sass, React-Bootstrap, Zustand, Spring
+                Boot
+              </p>
             </p>
           </div>
         </div>
@@ -74,7 +77,9 @@ const ProjectsComponent = (props) => {
             styled with Material UI. The backend is created using Spring Boot.
             <br />
             <br />
-            <p>Tech Used: React, CSS, Sass, Material UI, Spring Boot</p>
+            <p>
+              Tech Used: React, CSS, Sass, Material UI, Zustand, Spring Boot
+            </p>
           </p>
         </div>
       </div>
@@ -127,7 +132,7 @@ const ProjectsComponent = (props) => {
             size.
             <br />
             <br />
-            <p>Tech used: React, Sass, Zustand</p>
+            <p>Tech used: React, Sass, Material UI, Zustand</p>
           </p>
         </div>
       </div>
