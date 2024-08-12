@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/omarquinones/static/css/main.61efa588.css",
+    "main.css": "/omarquinones/static/css/main.0c010eb8.css",
     "main.js": "/omarquinones/static/js/main.962dc079.js",
     "static/js/787.1ed0c42c.chunk.js": "/omarquinones/static/js/787.1ed0c42c.chunk.js",
     "static/media/easybank.png": "/omarquinones/static/media/easybank.192cbca2bb3305248704.png",
@@ -9,12 +9,12 @@
     "static/media/multi-step-form.png": "/omarquinones/static/media/multi-step-form.844747a82c826f08bba0.png",
     "index.html": "/omarquinones/index.html",
     "static/media/freeCodeCampIcon.svg": "/omarquinones/static/media/freeCodeCampIcon.9fae4f65389de4dcb934d66ba08cb15b.svg",
-    "main.61efa588.css.map": "/omarquinones/static/css/main.61efa588.css.map",
+    "main.0c010eb8.css.map": "/omarquinones/static/css/main.0c010eb8.css.map",
     "main.962dc079.js.map": "/omarquinones/static/js/main.962dc079.js.map",
     "787.1ed0c42c.chunk.js.map": "/omarquinones/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61efa588.css",
+    "static/css/main.0c010eb8.css",
     "static/js/main.962dc079.js"
   ]
 }
