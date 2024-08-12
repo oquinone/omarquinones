@@ -128,10 +128,12 @@ $screen-xl-min: 1200px;
       }
 
       #welcome-container {
-        margin: 0 0 85px 15px;
+        @include xs {
+          margin: 0 0 85px 15px;
+        }
 
-        @include md {
-          width: 50%;
+        @include sm {
+          padding: 0 18px;
         }
 
         @include lg {
@@ -179,7 +181,6 @@ $screen-xl-min: 1200px;
           width: 60%;
         }
         padding: 0 18px;
-        // margin: 40px 0 0 0;
 
         .project-title {
           @include xs {
