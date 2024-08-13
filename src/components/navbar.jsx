@@ -5,7 +5,7 @@ import freeCodeCamp from "../svg/freeCodeCampIcon.svg";
 const NavbarComponent = (props) => {
   const { setHide } = props;
   return (
-    <section id="home-links-container">
+    <section id="navbar-container">
       <h1 id="name-title" onClick={() => setHide(0)}>
         Omar Quinones
       </h1>

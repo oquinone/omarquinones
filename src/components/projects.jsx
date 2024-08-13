@@ -4,10 +4,13 @@ import easybank from "../images/easybank.png";
 import multiStepForm from "../images/multi-step-form.png";
 
 const ProjectsComponent = (props) => {
-  const { hide } = props;
+  const { hide, width } = props;
   return (
     <>
-      <div id="welcome-container" className={hide === 0 ? "" : "hide"}>
+      <div
+        id="welcome-container"
+        className={width <= 575 ? "" : hide === 0 ? "" : "hide"}
+      >
         <h1 id="welcome-text">Welcome.</h1>
         <p id="welcome-paragraph">
           My name is Omar, and I am a software engineer specializing in building
@@ -17,7 +20,78 @@ const ProjectsComponent = (props) => {
         </p>
       </div>
 
-      <div className={`projects-container ${hide === 1 ? "" : "hide"}`}>
+      <div
+        className={`projects-container ${
+          width <= 575 ? "" : hide === 4 ? "" : "hide"
+        }`}
+      >
+        <h1 className="project-title">Mulit-Step Form</h1>
+        <div className="project-content">
+          <div>
+            <a
+              href="https://oquinone.github.io/multi-step-form/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={multiStepForm}
+                alt="multi-step form"
+                className="project-img"
+              />
+            </a>
+          </div>
+          <p className="project-description">
+            The aim for this project was to implement a responsive multi-step
+            form for an online gaming service. The primary objectives were to
+            maintain the state of each form item as the user progresed thorugh
+            the form and to ensure the form dispalyed perfectly on any screen
+            size.
+            <br />
+            <br />
+            <p>Tech used: React, Sass, Material UI, Zustand</p>
+          </p>
+        </div>
+      </div>
+
+      <div
+        className={`projects-container ${
+          width <= 575 ? "" : hide === 2 ? "" : "hide"
+        }`}
+      >
+        <h1 className="project-title">Author Management</h1>
+        <div className="project-content">
+          <div>
+            <a
+              href="https://oquinone.github.io/authorManagement/#/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={authorBook}
+                alt="project_image"
+                className="project-img"
+              />
+            </a>
+          </div>
+          <p className="project-description">
+            The goal for this project was create a system to manage authors and
+            their books. The manager can add, update, and delete authors and
+            their associated books. The frontend is created using React and
+            styled with Material UI. The backend is created using Spring Boot.
+            <br />
+            <br />
+            <p>
+              Tech Used: React, CSS, Sass, Material UI, Zustand, Spring Boot
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div
+        className={`projects-container ${
+          width <= 575 ? "" : hide === 1 ? "" : "hide"
+        }`}
+      >
         <h1 className="project-title">Image Upload</h1>
         <div className="project-content">
           <div>
@@ -54,37 +128,11 @@ const ProjectsComponent = (props) => {
         </div>
       </div>
 
-      <div className={`projects-container ${hide === 2 ? "" : "hide"}`}>
-        <h1 className="project-title">Author Management</h1>
-        <div className="project-content">
-          <div>
-            <a
-              href="https://oquinone.github.io/authorManagement/#/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={authorBook}
-                alt="project_image"
-                className="project-img"
-              />
-            </a>
-          </div>
-          <p className="project-description">
-            The goal for this project was create a system to manage authors and
-            their books. The manager can add, update, and delete authors and
-            their associated books. The frontend is created using React and
-            styled with Material UI. The backend is created using Spring Boot.
-            <br />
-            <br />
-            <p>
-              Tech Used: React, CSS, Sass, Material UI, Zustand, Spring Boot
-            </p>
-          </p>
-        </div>
-      </div>
-
-      <div className={`projects-container ${hide === 3 ? "" : "hide"}`}>
+      <div
+        className={`projects-container ${
+          width <= 575 ? "" : hide === 3 ? "" : "hide"
+        }`}
+      >
         <h1 className="project-title">Easybank</h1>
         <div className="project-content">
           <div>
@@ -104,35 +152,6 @@ const ProjectsComponent = (props) => {
             <br />
             <br />
             <p>Tech used: React, CSS, Sass, React-Bootstrap</p>
-          </p>
-        </div>
-      </div>
-
-      <div className={`projects-container ${hide === 4 ? "" : "hide"}`}>
-        <h1 className="project-title">Mulit-Step Form</h1>
-        <div className="project-content">
-          <div>
-            <a
-              href="https://oquinone.github.io/multi-step-form/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={multiStepForm}
-                alt="multi-step form"
-                className="project-img"
-              />
-            </a>
-          </div>
-          <p className="project-description">
-            The aim for this project was to implement a responsive multi-step
-            form for an online gaming service. The primary objectives were to
-            maintain the state of each form item as the user progresed thorugh
-            the form and to ensure the form dispalyed perfectly on any screen
-            size.
-            <br />
-            <br />
-            <p>Tech used: React, Sass, Material UI, Zustand</p>
           </p>
         </div>
       </div>
