@@ -20,6 +20,10 @@ const ProjectsComponent = (props) => {
         </p>
       </div>
 
+      <div id="project-header-text">
+        <h2>Projects</h2>
+      </div>
+
       <div
         className={`projects-container ${
           width <= 575 ? "" : hide === 4 ? "" : "hide"

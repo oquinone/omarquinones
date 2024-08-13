@@ -9,8 +9,8 @@ const Home = () => {
   const { hide, setHide, width } = useHooks();
 
   return (
-    <div id="home-container">
-      <div id="home-content">
+    <div id="main-container">
+      <div id="main-content">
         <NavbarComponent setHide={setHide} />
         <div id="projects-and-buttons-container">
           <ProjectsComponent hide={hide} width={width} />

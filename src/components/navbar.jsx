@@ -5,11 +5,11 @@ import freeCodeCamp from "../svg/freeCodeCampIcon.svg";
 const NavbarComponent = (props) => {
   const { setHide } = props;
   return (
-    <section id="navbar-container">
-      <h1 id="name-title" onClick={() => setHide(0)}>
+    <section id="navbar">
+      <h1 id="navbar-name-title" onClick={() => setHide(0)}>
         Omar Quinones
       </h1>
-      <ul id="home-links">
+      <ul id="navbar-links">
         <li>
           <a
             href="https://www.freecodecamp.org/certification/oquinone/front-end-development-libraries"
