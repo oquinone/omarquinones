@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/omarquinones/static/css/main.2d090a0c.css",
-    "main.js": "/omarquinones/static/js/main.e608e313.js",
+    "main.css": "/omarquinones/static/css/main.5da54cb8.css",
+    "main.js": "/omarquinones/static/js/main.dc350889.js",
     "static/js/787.1ed0c42c.chunk.js": "/omarquinones/static/js/787.1ed0c42c.chunk.js",
     "static/media/easybank.png": "/omarquinones/static/media/easybank.192cbca2bb3305248704.png",
     "static/media/author-book.png": "/omarquinones/static/media/author-book.1cabadd9d21c3eb8780e.png",
@@ -9,12 +9,12 @@
     "static/media/multi-step-form.png": "/omarquinones/static/media/multi-step-form.844747a82c826f08bba0.png",
     "index.html": "/omarquinones/index.html",
     "static/media/freeCodeCampIcon.svg": "/omarquinones/static/media/freeCodeCampIcon.9fae4f65389de4dcb934d66ba08cb15b.svg",
-    "main.2d090a0c.css.map": "/omarquinones/static/css/main.2d090a0c.css.map",
-    "main.e608e313.js.map": "/omarquinones/static/js/main.e608e313.js.map",
+    "main.5da54cb8.css.map": "/omarquinones/static/css/main.5da54cb8.css.map",
+    "main.dc350889.js.map": "/omarquinones/static/js/main.dc350889.js.map",
     "787.1ed0c42c.chunk.js.map": "/omarquinones/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d090a0c.css",
-    "static/js/main.e608e313.js"
+    "static/css/main.5da54cb8.css",
+    "static/js/main.dc350889.js"
   ]
 }
