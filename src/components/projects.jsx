@@ -2,6 +2,7 @@ import instaCloneImage from "../images/insta-image.png";
 import authorBook from "../images/author-book.png";
 import easybank from "../images/easybank.png";
 import multiStepForm from "../images/multi-step-form.png";
+import taskManagement from "../images/task-management-2.png";
 
 const ProjectsComponent = (props) => {
   const { hide, width } = props;
@@ -18,6 +19,47 @@ const ProjectsComponent = (props) => {
           crafting seamless user experiences and bringing innovative web
           solutions to life.
         </p>
+      </div>
+
+      <div
+        className={`projects-container ${
+          width <= 575 ? "" : hide === 5 ? "" : "hide"
+        }`}
+      >
+        <h1 className="project-title">Task Management</h1>
+        <div className="project-content">
+          <div>
+            <a
+              href="https://oquinone.github.io/task-management"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={taskManagement}
+                alt="multi-step form"
+                className="project-img"
+              />
+            </a>
+          </div>
+          <p className="project-description">
+            Designed and developed a fullstack Jira-like task management system
+            web app. Built the frontend using React and TypeScript, enabling
+            users to create multiple projects. Within each project, users can
+            add customizable columns to represent task statuses and create tasks
+            with specific details. Implemented a drag-and-drop interface
+            allowing users to move tasks between columns to update their status.
+            Developed the backend in Go with efficient CRUD APIs to manage
+            project data, columns, and tasks. Integrated MongoDB for data
+            storage and retrieval, ensuring high performance and data
+            persistence.
+            <br />
+            <br />
+            <p>
+              Tech used: React, TypeScript, Tailwind CSS, Ant Design, Zustand,
+              Go, MongoDB, Vite
+            </p>
+          </p>
+        </div>
       </div>
 
       <div
@@ -41,11 +83,9 @@ const ProjectsComponent = (props) => {
             </a>
           </div>
           <p className="project-description">
-            The aim for this project was to implement a responsive multi-step
-            form for an online gaming service. The primary objectives were to
-            maintain the state of each form item as the user progresed thorugh
-            the form and to ensure the form dispalyed perfectly on any screen
-            size.
+            Developed a responsive, mobile first approach, multi-step form with
+            a focus on accessibility, achieving a 100% score on Google Chromes
+            Lighthouse Accessibility audit by using ARIA and Semantic HTML
             <br />
             <br />
             <p>Tech used: React, Sass, Material UI, Zustand</p>

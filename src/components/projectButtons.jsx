@@ -11,6 +11,16 @@ const ProjectButtonsComponent = (props) => {
           <Button
             variant="text"
             size="small"
+            onClick={() => setHide(5)}
+            className="project-names-button"
+          >
+            Task Management
+          </Button>
+        </li>
+        <li className="project-names">
+          <Button
+            variant="text"
+            size="small"
             onClick={() => setHide(4)}
             className="project-names-button"
           >
