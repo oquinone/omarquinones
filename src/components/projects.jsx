@@ -71,7 +71,7 @@ const ProjectsComponent = (props) => {
         <div className="project-content">
           <div>
             <a
-              href="https://oquinone.github.io/multi-step-form/"
+              href="https://oquinone1.github.io/multi-step-form/"
               target="_blank"
               rel="noreferrer"
             >
@@ -102,7 +102,7 @@ const ProjectsComponent = (props) => {
         <div className="project-content">
           <div>
             <a
-              href="https://oquinone.github.io/authorManagement/#/"
+              href="https://oquinone1.github.io/authorManagement/#/"
               target="_blank"
               rel="noreferrer"
             >
@@ -136,7 +136,7 @@ const ProjectsComponent = (props) => {
         <div className="project-content">
           <div>
             <a
-              href="https://oquinone.github.io/instagram_clone/#/"
+              href="https://oquinone1.github.io/instagram_clone/#/"
               target="_blank"
               rel="noreferrer"
             >
@@ -177,7 +177,7 @@ const ProjectsComponent = (props) => {
         <div className="project-content">
           <div>
             <a
-              href="https://oquinone.github.io/easybank/"
+              href="https://oquinone1.github.io/easybank/"
               target="_blank"
               rel="noreferrer"
             >
