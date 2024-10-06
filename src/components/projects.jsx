@@ -30,7 +30,7 @@ const ProjectsComponent = (props) => {
         <div className="project-content">
           <div>
             <a
-              href="https://oquinone.github.io/task-management"
+              href="https://oquinone1.github.io/task-management"
               target="_blank"
               rel="noreferrer"
             >
