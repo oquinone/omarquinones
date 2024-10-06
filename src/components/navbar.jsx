@@ -38,7 +38,7 @@ const NavbarComponent = (props) => {
         </li>
         <li>
           <a
-            href="https://github.com/oquinone?tab=repositories"
+            href="https://github.com/oquinone1"
             target="_blank"
             rel="noreferrer"
           >
