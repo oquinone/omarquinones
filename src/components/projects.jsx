@@ -1,4 +1,4 @@
-import instaCloneImage from "../images/insta-image.png";
+import imageUpload from "../images/image-uploaded.png";
 import authorBook from "../images/author-book.png";
 import easybank from "../images/easybank.png";
 import multiStepForm from "../images/multi-step-form.png";
@@ -141,7 +141,7 @@ const ProjectsComponent = (props) => {
               rel="noreferrer"
             >
               <img
-                src={instaCloneImage}
+                src={imageUpload}
                 alt="project_image"
                 className="project-img"
               />
