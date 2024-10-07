@@ -136,7 +136,7 @@ const ProjectsComponent = (props) => {
         <div className="project-content">
           <div>
             <a
-              href="https://oquinone1.github.io/instagram_clone/#/"
+              href="https://oquinone1.github.io/image-upload/#/"
               target="_blank"
               rel="noreferrer"
             >
