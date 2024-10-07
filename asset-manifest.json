@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/omarquinones/static/css/main.5da54cb8.css",
-    "main.js": "/omarquinones/static/js/main.a6bd7b8b.js",
+    "main.js": "/omarquinones/static/js/main.02ae473f.js",
     "static/js/787.1ed0c42c.chunk.js": "/omarquinones/static/js/787.1ed0c42c.chunk.js",
+    "static/media/image-uploaded.png": "/omarquinones/static/media/image-uploaded.3ba890666fe23b38a1c1.png",
     "static/media/easybank.png": "/omarquinones/static/media/easybank.192cbca2bb3305248704.png",
     "static/media/task-management-2.png": "/omarquinones/static/media/task-management-2.96302efc42083c086b0c.png",
     "static/media/author-book.png": "/omarquinones/static/media/author-book.1cabadd9d21c3eb8780e.png",
-    "static/media/insta-image.png": "/omarquinones/static/media/insta-image.5a4a8879792fdb71d553.png",
     "static/media/multi-step-form.png": "/omarquinones/static/media/multi-step-form.844747a82c826f08bba0.png",
     "index.html": "/omarquinones/index.html",
     "static/media/freeCodeCampIcon.svg": "/omarquinones/static/media/freeCodeCampIcon.9fae4f65389de4dcb934d66ba08cb15b.svg",
     "main.5da54cb8.css.map": "/omarquinones/static/css/main.5da54cb8.css.map",
-    "main.a6bd7b8b.js.map": "/omarquinones/static/js/main.a6bd7b8b.js.map",
+    "main.02ae473f.js.map": "/omarquinones/static/js/main.02ae473f.js.map",
     "787.1ed0c42c.chunk.js.map": "/omarquinones/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5da54cb8.css",
-    "static/js/main.a6bd7b8b.js"
+    "static/js/main.02ae473f.js"
   ]
 }
